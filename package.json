@@ -44,6 +44,7 @@
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-image": "^2.0.5",
     "@rollup/plugin-node-resolve": "^8.1.0",
     "@storybook/react": "^5.3.19",
     "@testing-library/jest-dom": "^5.11.0",
