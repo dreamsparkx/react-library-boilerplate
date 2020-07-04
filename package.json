@@ -15,7 +15,8 @@
     "test:watch": "jest --watch",
     "storybook": "start-storybook -p 6006",
     "storybook:export": "build-storybook",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "format": "prettier --write src/**/*.{ts,tsx}"
   },
   "repository": {
     "type": "git",
@@ -83,7 +84,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts,tsx}": [
+    "./src/*.{js,jsx,ts,tsx}": [
       "eslint --fix"
     ]
   }
