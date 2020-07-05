@@ -8,5 +8,9 @@ const StyledDiv = styled.div`
 
 export default function Example(props: IProps) {
     const { text = 'Example', ...extra } = props;
-    return <StyledDiv data-testid="test-component" {...extra}>{text}</StyledDiv>;
+    return (
+        <StyledDiv data-testid="test-component" {...extra}>
+            {text}
+        </StyledDiv>
+    );
 }
