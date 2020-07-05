@@ -4,4 +4,6 @@
 
 The main purpose of this repository is to give users structured react library boilerplate.
 
-Credits: https://blog.harveydelaney.com/creating-your-own-react-component-library/
+Credits:
+ - https://blog.harveydelaney.com/creating-your-own-react-component-library/
+ - https://github.com/jaebradley/example-rollup-react-component-npm-package
