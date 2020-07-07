@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { IProps } from './index.types';
-//asdas
 
 const StyledDiv = styled.div`
     display: inline-block;
