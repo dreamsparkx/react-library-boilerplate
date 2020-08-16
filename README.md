@@ -98,6 +98,10 @@ jobs:
 
 ```
 
+To create default storybook:
+```
+npx -p @storybook/cli sb init
+```
 
 
 Credits:
