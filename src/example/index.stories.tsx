@@ -1,12 +1,17 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { Story, Meta } from '@storybook/react/types-6-0';
 import Example from './index';
-import { withKnobs, text, select } from '@storybook/addon-knobs';
-import { action } from '@storybook/addon-actions';
+import { IProps } from './index.types';
 
-storiesOf('Example', module)
-    .addDecorator(withKnobs)
-    .add('default', () => <Example text={text('text', 'Example Text')} onClick={action('clicked')} />)
-    .add('secondary', () => (
-        <Example text={select('text', { first: 'first', second: 'second' }, 'first')} onClick={action('clicked')} />
-    ));
+export default {
+    title: 'Example',
+    component: Example,
+    argTypes: { onClick: { action: 'clicked' } },
+} as Meta;
+
+const Template: Story<IProps> = (args) => <Example {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {
+  text: 'Example Text'
+};
