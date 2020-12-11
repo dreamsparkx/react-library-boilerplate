@@ -101,6 +101,8 @@ jobs:
 To create default storybook:
 ```
 npx -p @storybook/cli sb init
+OR
+npx sb init
 ```
 
 
