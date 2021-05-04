@@ -13,5 +13,5 @@ const Template: Story<IProps> = (args) => <Example {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  text: 'Example Text'
+    text: 'Example Text',
 };
