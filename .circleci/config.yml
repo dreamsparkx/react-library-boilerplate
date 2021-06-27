@@ -3,9 +3,7 @@ orbs:
 version: 2.1
 executors:
   description: Node 10 runtime environment
-  docker:
-    parameters:
-      node: '16'
+  sad: 'sad'
 workflows:
   push:
     jobs:
