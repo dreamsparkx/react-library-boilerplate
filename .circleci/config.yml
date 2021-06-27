@@ -5,7 +5,7 @@ executors:
   default:
     description: Node 10 runtime environment
     docker:
-    - image: circleci/node:<<parameters.node>>
+    - image: circleci/node:16
 workflows:
   push:
     jobs:
