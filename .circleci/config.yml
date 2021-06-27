@@ -3,7 +3,7 @@ orbs:
 version: 2.1
 executors:
   description: Node 10 runtime environment
-  sad: 'sad'
+  parameters: 'asd'
 workflows:
   push:
     jobs:
