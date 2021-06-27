@@ -2,8 +2,7 @@ orbs:
   react: thefrontside/react@0.2.0
 version: 2.1
 executors:
-  parameters:
-    node: "16"
+  parameters: "16"
 workflows:
   push:
     jobs:
