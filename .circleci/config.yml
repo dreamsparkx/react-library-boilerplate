@@ -4,12 +4,12 @@ version: 2.1
 executors:
   description: |
       Node 10 runtime environment
-    docker:
-    - image: circleci/node:<<parameters.node>>
-    parameters:
-      node:
-        default: "10"
-        type: string
+  docker:
+  - image: circleci/node:<<parameters.node>>
+  parameters:
+    node:
+      default: "10"
+      type: string
 workflows:
   push:
     jobs:
