@@ -4,7 +4,8 @@ version: 2.1
 executors:
   description: Node 10 runtime environment
   docker:
-    parameters: 'asdasd'
+    parameters:
+      node: '16'
 workflows:
   push:
     jobs:
