@@ -3,7 +3,8 @@ orbs:
 version: 2.1
 executors:
   description: Node 10 runtime environment
-  parameters: 'asd'
+  parameters:
+    node: '16'
 workflows:
   push:
     jobs:
