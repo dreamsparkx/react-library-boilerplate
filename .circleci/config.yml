@@ -6,7 +6,7 @@ executors:
     description: |
       Node 16 runtime environment
     docker:
-    - image: circleci/node:<<parameters.node>>
+    - image: circleci/node:16.3.0
     parameters:
       node:
         default: "16.3.0"
