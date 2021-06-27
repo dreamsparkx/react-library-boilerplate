@@ -9,7 +9,7 @@ executors:
     - image: circleci/node:<<parameters.node>>
     parameters:
       node:
-        default: "10"
+        default: "16"
         type: string
 workflows:
   push:
